@@ -18,3 +18,28 @@
     padding: 5px;
     font-size: 15px;
 }
+
+@media screen and (min-width : 767px) {
+
+    .movie-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .movie-container{
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width : 425px) {
+
+    .movie-list{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .movie-container{
+        margin: 70px;
+    }
+}
