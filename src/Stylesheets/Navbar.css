@@ -1,0 +1,22 @@
+.nav-main{
+    display: flex;
+    align-items: center;
+    background-color: rgba(224, 224, 224, .8);
+    height: 60px;
+    justify-content: space-between;
+}
+
+.nav-header{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    
+}
+
+li{
+    margin: 5px;
+}

@@ -1,0 +1,20 @@
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.movie-container{
+    box-shadow: 0px 10px 20px rgb(0, 0, 0 / 31%);
+    margin: 20px;
+    text-align: center;
+    width: 21%;
+}
+
+.btn-primary{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
